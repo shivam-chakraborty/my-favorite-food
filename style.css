@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+        background:linear-gradient(cyan,aqua,aquamarine)
+}
+.line{
+    
+    height: 10px;
+        width:90px;
+    background: crimson;
+    
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-style: dashed;
+    border-color: wheat;
+    border-width: thick;
+}
+.links{
+   float: right;
+    padding-left: 30px;
+     padding-right: 30px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    text-decoration: underline;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+img:hover{
+    transform: scale(0.9);
+}
+.menu{
+list-style:none;
+}
+.links:hover{
+    background: crimson;
+}
